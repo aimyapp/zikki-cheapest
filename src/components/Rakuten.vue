@@ -3,11 +3,11 @@
     <v-card-title>{{ shopName }}</v-card-title>
     <v-row>
       <v-col v-for="zikki in zikkis" :key="zikki" cols="12" sm="6" md="4">
-        <v-card>
+        <v-card width="300">
           <v-img
             :src="`https://upload.wikimedia.org/wikipedia/commons/0/0e/No_image.jpg`"
-            height="300px"
-            width="200px"
+            height="200px"
+            width="300px"
           ></v-img>
           <v-card-subtitle class="pb-0">機種名: {{ zikki }}</v-card-subtitle>
           <v-card-text class="text--primary">

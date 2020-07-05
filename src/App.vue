@@ -11,7 +11,8 @@
 </template>
 
 <script>
-import Rakuten from './components/Rakuten.vue'
+import Rakuten from '@/components/Rakuten.vue'
+
 export default {
   components: {
     Rakuten
